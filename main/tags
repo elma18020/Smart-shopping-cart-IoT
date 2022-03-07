@@ -1,0 +1,78 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUF_SIZE	debug.c	14;"	d	file:
+DAPPEND	debug.h	/^	DAPPEND = 0x0800,$/;"	e	enum:__anon1
+DDEBUG	debug.h	/^	DDEBUG = 0x2000,$/;"	e	enum:__anon1
+DDEBUGEXT	debug.h	/^	DDEBUGEXT = 0x1000,$/;"	e	enum:__anon1
+DEBUG_BLE_LOG_BUFFER_MASK	debug.h	36;"	d
+DEBUG_BLE_LOG_BUFFER_SIZE	debug.h	35;"	d
+DEBUG_Modules_t	debug.h	/^} DEBUG_Modules_t;$/;"	t	typeref:enum:__anon1
+DEBUG_WAIT4TC_COUNT	debug.h	33;"	d
+DERROR	debug.h	/^	DERROR = 0x2000,$/;"	e	enum:__anon1
+DEVICE_ID_REG_ADDR	debug.h	29;"	d
+DEVICE_ID_SIZE	debug.h	28;"	d
+DHEADER	debug.h	/^	DHEADER = 0x8000,$/;"	e	enum:__anon1
+DINTERNAL	debug.h	/^	DINTERNAL = 0x0400,$/;"	e	enum:__anon1
+DNOTIFY	debug.h	/^	DNOTIFY = 0x4000,$/;"	e	enum:__anon1
+DSIZE	debug.h	/^	DSIZE,$/;"	e	enum:__anon1
+DSYS	debug.h	/^	DSYS = 0x0000,$/;"	e	enum:__anon1
+DWARNING	debug.h	/^	DWARNING = 0x1000,$/;"	e	enum:__anon1
+LINUX_OS	debug.h	26;"	d
+MAX_PRINT_STRING_SIZE	misc.h	9;"	d
+MISC_CopyStr	misc.c	/^void MISC_CopyStr(uint8_t * dst, uint8_t * src)$/;"	f
+MISC_LenStr	misc.c	/^uint16_t MISC_LenStr(uint8_t * str)$/;"	f
+MISC_STR_DO_NOT_MATCH	misc.h	29;"	d
+MISC_STR_LEN_DIFFERS	misc.h	28;"	d
+MISC_STR_MACTH	misc.h	30;"	d
+PRINT_ARG_TYPE_BINARY_BYTE	misc.h	11;"	d
+PRINT_ARG_TYPE_BINARY_HALFWORD	misc.h	12;"	d
+PRINT_ARG_TYPE_BINARY_WORD	misc.h	13;"	d
+PRINT_ARG_TYPE_CHARACTER	misc.h	17;"	d
+PRINT_ARG_TYPE_DECIMAL_BYTE	misc.h	14;"	d
+PRINT_ARG_TYPE_DECIMAL_HALFWORD	misc.h	15;"	d
+PRINT_ARG_TYPE_DECIMAL_WORD	misc.h	16;"	d
+PRINT_ARG_TYPE_FLOAT	misc.h	19;"	d
+PRINT_ARG_TYPE_HEXADECIMAL_BYTE	misc.h	20;"	d
+PRINT_ARG_TYPE_HEXADECIMAL_HALFWORD	misc.h	21;"	d
+PRINT_ARG_TYPE_HEXADECIMAL_WORD	misc.h	22;"	d
+PRINT_ARG_TYPE_MASK_CHAR_STRING	misc.h	25;"	d
+PRINT_ARG_TYPE_STRING	misc.h	18;"	d
+PRINT_ARG_TYPE_UNKNOWN	misc.h	23;"	d
+SYSTEM_DEBUG	debug.h	31;"	d
+TAG	user_main.c	/^static const char *TAG="APP";$/;"	v	file:
+__DEBUG_H__	debug.h	2;"	d
+__MISC_H__	misc.h	2;"	d
+app_main	user_main.c	/^void app_main()$/;"	f
+c_mod	debug.c	/^const uint8_t c_mod[DSIZE][32] =$/;"	v
+catStrMISC	misc.c	/^void catStrMISC(uint8_t * dst, uint8_t * src)$/;"	f
+cmpStrMISC	misc.c	/^uint8_t cmpStrMISC(uint8_t * spat, uint8_t * stest)$/;"	f
+cmpStrWithLenMISC	misc.c	/^uint8_t cmpStrWithLenMISC(uint8_t * spat, uint16_t len_spat, uint8_t * stest, uint16_t len_stest)$/;"	f
+connect_handler	user_main.c	/^static void connect_handler(void* arg, esp_event_base_t event_base, $/;"	f	file:
+ctrl	user_main.c	/^httpd_uri_t ctrl = {$/;"	v
+ctrl_put_handler	user_main.c	/^esp_err_t ctrl_put_handler(httpd_req_t *req)$/;"	f
+disconnect_handler	user_main.c	/^static void disconnect_handler(void* arg, esp_event_base_t event_base, $/;"	f	file:
+echo	user_main.c	/^httpd_uri_t echo = {$/;"	v
+echo_post_handler	user_main.c	/^esp_err_t echo_post_handler(httpd_req_t *req)$/;"	f
+g_core_id	debug.c	/^volatile uint8_t g_core_id[17] = {0};$/;"	v
+g_debug_block_flag	debug.c	/^volatile uint8_t g_debug_block_flag = 1;$/;"	v
+g_logmsg_ccode	debug.c	/^volatile uint8_t g_logmsg_ccode = '5';$/;"	v
+getDNumMISC	misc.c	/^void getDNumMISC(uint8_t *dnum, uint32_t num)$/;"	f
+getStr4AddrMISC	misc.c	/^void getStr4AddrMISC(uint8_t * str, uint32_t addr)$/;"	f
+getStr4NumMISC	misc.c	/^void getStr4NumMISC(uint16_t type, uint32_t  * num, uint8_t * rstr)$/;"	f
+getStrMISC	misc.c	/^void getStrMISC(uint8_t * str, uint32_t  * num, uint8_t * r_str)$/;"	f
+hello	user_main.c	/^httpd_uri_t hello = {$/;"	v
+hello_get_handler	user_main.c	/^esp_err_t hello_get_handler(httpd_req_t *req)$/;"	f
+initDEBUG	debug.c	/^void initDEBUG(char * str, uint8_t ccode, uint32_t baudrate, char * app)$/;"	f
+initUART	debug.c	/^void initUART(uint32_t baudrate)$/;"	f
+printDEBUG	debug.c	/^void printDEBUG(uint16_t sid, char *str, ... )$/;"	f
+printUART	debug.c	/^void printUART(char *str, ... )$/;"	f
+putDNumMISC	misc.c	/^void putDNumMISC(uint8_t *dnum, uint16_t *m, uint8_t *r_str)$/;"	f
+putcharUART	debug.c	/^void putcharUART(uint8_t data)$/;"	f
+server	user_main.c	/^static httpd_handle_t server = NULL;$/;"	v	file:
+sprintUART	debug.c	/^void sprintUART(uint8_t * str)$/;"	f
+start_webserver	user_main.c	/^httpd_handle_t start_webserver(void)$/;"	f
+stop_webserver	user_main.c	/^void stop_webserver(httpd_handle_t server)$/;"	f
